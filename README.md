@@ -1,3 +1,5 @@
+# your web app is boated
+
 using firefox's memory snapshot tool,
 I measured the heap usage of a variety of web apps.
 Here is how everying did.
@@ -50,6 +52,12 @@ google hangouts 10.76
 jitsi 40.21
 meatspace chat 4.48
 ```
+
+# method
+
+I opened each site in firefox, and used the memory shapshot tool.
+I screen shotted the output using `scrot`. I was running `ublock`,
+and that probably made some sites smaller.
 
 
 ## twitter - 25.09
@@ -183,11 +191,14 @@ intentionally check for emails, there is no notifications or changing favicons. 
 
 ## gmail (standard) - 158
 
-amazingly bloated. Do 
+amazingly bloated. mostly massive amounts of javascript (it has a progress bar that shows at startup)
+but just the JS objects are 37 mb.
 
 ![memory-snapshot](./images/gmail-standard.png)
 
 ## google inbox - 215 (!!!)
+
+makes standard gmail look tame. did they take gmail standard and just add more stuff?
 
 ![memory-snapshot](./images/google-inbox.png)
 
@@ -197,43 +208,62 @@ amazingly bloated. Do
 
 ## google docs (document) - 46.57
 
+this seems like more than should be necessary. mainly js objects.
+
 ![memory-snapshot](./images/google-docs-document.png)
 
 ## google sheets (spreadsheet) - 96.98
+
+a lot of memory, especially considering spreadsheets were the killer app back in the apple 2
+days, where lots of people brought computers for the first time to run visicalc on 64k of memory?
 
 ![memory-snapshot](./images/google-sheets-spreadsheet.png)
 
 ## hackmd (document) - 44.9
 
+about the same as a google doc
+
 ![memory-snapshot](./images/hackmd.png)
 
 ## sandstorm (spreadsheet) - 27.63
+
+almost 1/4 that of google spreadsheets.
 
 ![memory-snapshot](./images/sandstorm-sheet.png)
 
 ## toggl - 49.77
 
-time tracking software
+time tracking software, quite bloated.
 
 ![memory-snapshot](./images/toggl.png)
 
 ## nytimes - 56.08
 
+very bloated.
+
 ![memory-snapshot](./images/nytimes.png)
 
 ## the guardian - 7.36
+
+pretty good.
 
 ![memory-snapshot](./images/the-guardian.png)
 
 ## the onion - 38.30
 
+quite bloated, nearly as much as reddit, but is created entirely by their in-house writers.
+
 ![memory-snapshot](./images/the-onion.png)
 
 ## open collective - 31.22
 
+react site, but it's not data that changes very often. pretty bloated.
+
 ![memory-snapshot](./images/open-collective.png)
 
 ## medium - 18.53
+
+could be better, but not as bad as others.
 
 ![memory-snapshot](./images/medium.png)
 
@@ -243,45 +273,82 @@ time tracking software
 
 ## soundcloud - 22
 
+better than youtube
+
 ![memory-snapshot](./images/soundcloud.png)
 
 ## soundcloud (track open) - 45.80
+
+better than youtube
 
 ![memory-snapshot](./images/soundcloud-track.png)
 
 ## bandcamp - 14.86
 
+front page has listings, memory use similar to google search results.
+the best content site.
+
 ![memory-snapshot](./images/bandcamp.png)
 
 ## bandcamp (album page) - 8.76
+
+pretty tight!
 
 ![memory-snapshot](./images/bandcamp-album.png)
 
 ## slack - 76.53
 
+bloated! largely javascript.
+
 ![memory-snapshot](./images/slack.png)
 
 ## rocketchat - 32.12
+
+does the same thing as slack, but with less javascript.
+rocketchat is mostly js objects, but still less than rocketchat.
 
 ![memory-snapshot](./images/rocketchat.png)
 
 ## riot - 55.31
 
+more js objects than slack, but less javascript.
+
 ![memory-snapshot](./images/riot.png)
 
 ## talky - 9.40
+
+started a call with no one else in it. pretty tight!
 
 ![memory-snapshot](./images/talky.png)
 
 ## google hangouts - 10.76
 
+on a call by my self. also surprisingly unbloated!
+
 ![memory-snapshot](./images/hangouts.png)
 
 ## jitsi - 40.21
+
+4x google hangouts.
 
 ![memory-snapshot](./images/jitsi.png)
 
 ## meatspace chat - 4.48
 
+as tight as a static site, but does crazy javascript stuff!
+
 ![memory-snapshot](./images/meatspace-chat.png)
+
+# conclusions
+
+I started exploring this because I was trying to figure out how to optimize my own apps.
+Memory use isn't the most important thing, but it is an easy to measure proxy. If you have
+less memory usage, you probably have a simpler app, which is probably more performant.
+Less memory also means lees garbage collection activity.
+
+Recently, web development style has moved towards a fully dynamic front end that generates
+everything in javascript. If a app really is highly dynamic, I guess that is somewhat excusable,
+(such as facebook or slack) but I on a site that could be static it obviously uses a lot more.
+
+I think this just shows there is considerable room for improvement in terms of application efficientcy.
 
