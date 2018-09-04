@@ -1,3 +1,7 @@
+using firefox's memory snapshot tool,
+I measured the heap usage of a variety of web apps.
+Here is how everying did.
+
 ```
 twitter 25.09
 tweetdeck 40.38
@@ -41,30 +45,47 @@ bandcamp (album page) 8.76
 slack 76.53
 rocketchat 32.12
 riot 55.31
+talky 9.40
+google hangouts 10.76
+jitsi 40.21
+meatspace chat 4.48
 ```
 
 
 ## twitter - 25.09
 
+loaded twitter homepage and didn't scroll or touch anything
+
 ![memory-snapshot](./images/twitter.png)
 
 ## tweetdeck - 40.38
+
+twitter power user interface, with mentions and messages, one user's feed, and a search feed
+added.
 
 ![memory-snapshot](./images/tweetdeck.png)
 
 ## github - 7.41
 
+github homepage (my news feed)
+
 ![memory-snapshot](./images/github.png)
 
 ## google - 11.30
+
+empty google page. A surprising amount of memory used since it shows nothing but a single field.
 
 ![memory-snapshot](./images/google.png)
 
 ## google results - 14.77
 
+prehaps still a lot of memory considering very little images or real time interactions here.
+
 ![memory-snapshot](./images/google-results.png)
 
 ## duckduckgo - 5.63
+
+much less memory than google! I guess it's the tracking features in google that uses the extra memory!
 
 ![memory-snapshot](./images/duckduckgo.png)
 
@@ -74,6 +95,8 @@ riot 55.31
 
 ## reddit - 43.77
 
+the reddit homepage has an infinite scroller, usually means lots of javascript and js objects.
+
 ![memory-snapshot](./images/reddit.png)
 
 ## wikipedia - 1.73
@@ -82,21 +105,31 @@ riot 55.31
 
 ## wikipedia (article) - 5.93
 
+static page with some images
+
 ![memory-snapshot](./images/wikipedia-article.png)
 
 ## youtube - 30.00
+
+pretty light weight considering it's youtube
 
 ![memory-snapshot](./images/youtube.png)
 
 ## youtube (video) - 59.04
 
+I think if you need more memory than this and don't play videos there is something wrong.
+
 ![memory-snapshot](./images/youtube-video.png)
 
 ## google-maps - 65.61
 
+I've noticed google-maps being quite heavy, and it's more than a video. but should it be?
+
 ![memory-snapshot](./images/google-maps.png)
 
 ## openstreetmap - 6.72
+
+only 10% the memory of google maps and does essentially the same thing!
 
 on new york, with transportation layer enabled
 
@@ -104,33 +137,53 @@ on new york, with transportation layer enabled
 
 ## stackoverflow - 2.55
 
+static site
+
 ![memory-snapshot](./images/stackoverflow.png)
 
 ## facebook - 23.49
+
+just the login page! already a lot of javascript has been loaded.
+The most bloated landing page, twice as much as google, 10x wikipedia.
 
 ![memory-snapshot](./images/facebook.png)
 
 ## facebook newsfeed - 56.12
 
+a lot of objects are in memory, presumably this is from using react.
+
 ![memory-snapshot](./images/facebook-newsfeed.png)
 
 ## google images (result) - 26.41
+
+fairly efficient, compared to reddit, youtube etc
 
 ![memory-snapshot](./images/google-images.png)
 
 ## duckduckgo images (result) - 7.31
 
+1/3 the memory google images uses
+
 ![memory-snapshot](./images/duckduckgo-images.png)
 
 ## pinterest - 26.80
+
+about the same as google images
 
 ![memory-snapshot](./images/pinterest.png)
 
 ## gmail (basic) - 0.81
 
+nearly nothing! I use this daily. Really, it's an amazing level of functionality and user-friendlyness,
+packed into a very simple interface. Also, because it doesn't have any
+kind of dynamic updates, it's less distracting than the other email interfaces. You have to
+intentionally check for emails, there is no notifications or changing favicons. so ugly it's beautiful.
+
 ![memory-snapshot](./images/gmail-basic.png)
 
 ## gmail (standard) - 158
+
+amazingly bloated. Do 
 
 ![memory-snapshot](./images/gmail-standard.png)
 
@@ -158,9 +211,11 @@ on new york, with transportation layer enabled
 
 ![memory-snapshot](./images/sandstorm-sheet.png)
 
-## toggle - 49.77
+## toggl - 49.77
 
-![memory-snapshot](./images/toggle.png)
+time tracking software
+
+![memory-snapshot](./images/toggl.png)
 
 ## nytimes - 56.08
 
@@ -214,4 +269,19 @@ on new york, with transportation layer enabled
 
 ![memory-snapshot](./images/riot.png)
 
+## talky - 9.40
+
+![memory-snapshot](./images/talky.png)
+
+## google hangouts - 10.76
+
+![memory-snapshot](./images/hangouts.png)
+
+## jitsi - 40.21
+
+![memory-snapshot](./images/jitsi.png)
+
+## meatspace chat - 4.48
+
+![memory-snapshot](./images/meatspace-chat.png)
 
