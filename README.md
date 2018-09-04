@@ -13,7 +13,7 @@ youtube 30.00
 youtube video 59.04
 google-maps 65.61
 openstreetmap (on new york, transportation layer) 6.72
-stackoverflow 4.68
+stackoverflow 2.55
 facebook 23.49
 facebook newsfeed 56.12
 images.google (result) 26.41
@@ -102,7 +102,7 @@ on new york, with transportation layer enabled
 
 ![memory-snapshot](./images/openstreetmap.png)
 
-## stackoverflow - 4.68
+## stackoverflow - 2.55
 
 ![memory-snapshot](./images/stackoverflow.png)
 
@@ -152,11 +152,11 @@ on new york, with transportation layer enabled
 
 ## hackmd (document) - 44.9
 
-![memory-snapshot](./images/hackmd-document.png)
+![memory-snapshot](./images/hackmd.png)
 
 ## sandstorm (spreadsheet) - 27.63
 
-![memory-snapshot](./images/sandstorm-spreadsheet.png)
+![memory-snapshot](./images/sandstorm-sheet.png)
 
 ## toggle - 49.77
 
