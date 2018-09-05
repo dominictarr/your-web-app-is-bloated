@@ -2,7 +2,7 @@
 
 using firefox's memory snapshot tool,
 I measured the heap usage of a variety of web apps.
-Here is how everying did.
+Here is how everything did.
 
 ```
 twitter 25.09
