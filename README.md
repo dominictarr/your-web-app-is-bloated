@@ -1,4 +1,4 @@
-# your web app is boated
+# your web app is bloated
 
 using firefox's memory snapshot tool,
 I measured the heap usage of a variety of web apps.
