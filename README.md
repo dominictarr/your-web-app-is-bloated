@@ -358,13 +358,13 @@ especially considering there is no map displayed. Smells like react.
 
 ![memory-snapshot](./images/airbnb.png)
 
-## patchless - 12.43
+## patchless - 12.43 MB
 
 A social p2p client with heavy javascript, including infinite scrollers!
 
 ![memory-snapshot](./images/patchless.png)
 
-## dat-shopping-list - 8.28
+## dat-shopping-list - 8.28 MB
 
 simple shopping list app on dat
 
