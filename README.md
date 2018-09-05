@@ -311,7 +311,7 @@ bloated! largely javascript.
 ## rocketchat - 32.12 MB
 
 does the same thing as slack, but with less javascript.
-rocketchat is mostly js objects, but still less than rocketchat.
+rocketchat is mostly js objects, but still less than slack.
 
 ![memory-snapshot](./images/rocketchat.png)
 
