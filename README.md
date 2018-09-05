@@ -4,54 +4,54 @@ using firefox's memory snapshot tool,
 I measured the heap usage of a variety of web apps.
 Here is how everything did.
 
-```
-twitter 25.09
-tweetdeck 40.38
-github 7.41
-google 11.30
-google results 14.77
-duckduckgo 5.63
-duckduckgo results 4.81
-reddit 43.77
-wikipedia 1.73
-wikipedia page 5.93
-youtube 30.00
-youtube video 59.04
-google-maps 65.61
-openstreetmap (on new york, transportation layer) 6.72
-stackoverflow 2.55
-facebook 23.49
-facebook newsfeed 56.12
-images.google (result) 26.41
-duckduckgo images (result) 7.31
-pinterest 26.80
-gmail (vintage) 0.81
-gmail (standard) 158
-google inbox 215 (!!!)
-google docs 24.7
-google docs (document) 46.57
-google sheets (spreadsheet) 96.98
-hackmd (document) 44.9
-sandstorm (spreadsheet) 27.63
-toggle 49.77
-nytimes 56.08
-the guardian 7.36
-the onion 38.30
-open collective 31.22
-medium 18.53
-medium (article) 17.99
-soundcloud 22
-soundcloud (track open) 45.80
-bandcamp 14.86
-bandcamp (album page) 8.76
-slack 76.53
-rocketchat 32.12
-riot 55.31
-talky 9.40
-google hangouts 10.76
-jitsi 40.21
-meatspace chat 4.48
-```
+| Application       | Memory Usage (MB) | Notes                             |
+|-------------------|-------------------|-----------------------------------|
+| bandcamp          | 14.86             |                                   |
+| bandcamp          | 8.76              | album page                        |
+| duckduckgo        | 4.81              | result                            |
+| duckduckgo        | 5.63              |                                   |
+| duckduckgo images | 7.31              | result                            |
+| facebook          | 23.49             | newsfeed                          |
+| facebook          | 56.12             |                                   |
+| github            | 7.41              |                                   |
+| gmail             | 0.81              | legacy                            |
+| gmail             | 158               | standard                          |
+| google            | 11.30             |                                   |
+| google            | 14.77             | result                            |
+| google docs       | 24.7              |                                   |
+| google docs       | 46.57             | document                          |
+| google hangouts   | 10.76             |                                   |
+| google inbox      | 215               | (!!!)                             |
+| google sheets     | 96.98             | sheets                            |
+| google-maps       | 65.61             |                                   |
+| hackmd            | 44.9              | document                          |
+| images.google     | 26.41             | result                            |
+| jitsi             | 40.21             |                                   |
+| meatspace chat    | 4.48              |                                   |
+| medium            | 17.99             | article                           |
+| medium            | 18.53             |                                   |
+| nytimes           | 56.08             |                                   |
+| open collective   | 31.22             |                                   |
+| openstreetmap     | 6.72              | on new york, transportation layer |
+| pinterest         | 26.80             |                                   |
+| reddit            | 43.77             |                                   |
+| riot              | 55.31             |                                   |
+| rocketchat        | 32.12             |                                   |
+| sandstorm         | 27.63             | spreadsheet                       |
+| slack             | 76.53             |                                   |
+| soundcloud        | 22                |                                   |
+| soundcloud        | 45.80             | track open                        |
+| stackoverflow     | 2.55              |                                   |
+| talky             | 9.40              |                                   |
+| the guardian      | 7.36              |                                   |
+| the onion         | 38.30             |                                   |
+| toggle            | 49.77             |                                   |
+| tweetdeck         | 40.38             |                                   |
+| twitter           | 25.09             |                                   |
+| wikipedia         | 1.73              |                                   |
+| wikipedia page    | 5.93              |                                   |
+| youtube           | 30.00             |                                   |
+| youtube video     | 59.04             |                                   |
 
 # method
 
