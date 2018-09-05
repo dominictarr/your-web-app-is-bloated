@@ -13,6 +13,7 @@ slack |  76.53
 google-maps |  65.61
 youtube video |  59.04
 nytimes |  56.08
+facebook messenger | 57.78
 facebook newsfeed |  56.12
 riot |  55.31
 toggle |  49.77
@@ -20,6 +21,7 @@ google docs (document) |  46.57
 soundcloud (track open) |  45.80
 hackmd (document) |  44.9
 reddit |  43.77
+airbnb | 40.8
 jitsi |  40.21
 tweetdeck |  40.38
 the onion |  38.30
@@ -37,10 +39,12 @@ medium |  18.53
 medium (article) |  17.99
 bandcamp |  14.86
 google results |  14.77
+patchless | 12.43
 google |  11.30
 google hangouts |  10.76
 talky |  9.40
 bandcamp (album page) |  8.76
+dat-shopping-list | 8.28
 the guardian |  7.36
 duckduckgo images (result) |  7.31
 github |  7.41
@@ -52,6 +56,8 @@ duckduckgo results |  4.81
 stackoverflow |  2.55
 wikipedia |  1.73
 gmail (vintage) |  0.81
+
+
 
 # Method
 
@@ -339,6 +345,32 @@ as tight as a static site, but does crazy javascript stuff!
 
 ![memory-snapshot](./images/meatspace-chat.png)
 
+## facebook messenger - 57.78 MB
+
+same memory use as fb news feed. react, of course.
+
+![memory-snapshot](./images/messenger.png)
+
+## airbnb - 40.8 MB
+
+Searched for "san francisco". A lot of memory used to just display a list,
+especially considering there is no map displayed. Smells like react.
+
+![memory-snapshot](./images/airbnb.png)
+
+## patchless - 12.43
+
+A social p2p client with heavy javascript, including infinite scrollers!
+
+![memory-snapshot](./images/patchless.png)
+
+## dat-shopping-list - 8.28
+
+simple shopping list app on dat
+
+![memory-snapshot](./images/dat-shopping-list.png)
+
+
 # conclusions
 
 I started exploring this because I was trying to figure out how to optimize my own apps.
@@ -351,4 +383,6 @@ everything in javascript. If a app really is highly dynamic, I guess that is som
 (such as facebook or slack) but I on a site that could be static it obviously uses a lot more.
 
 I think this just shows there is considerable room for improvement in terms of application efficientcy.
+
+
 
