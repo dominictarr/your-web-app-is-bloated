@@ -60,82 +60,82 @@ I screen shotted the output using `scrot`. I was running `ublock`,
 and that probably made some sites smaller.
 
 
-## twitter - 25.09
+## twitter - 25.09 MB
 
 loaded twitter homepage and didn't scroll or touch anything
 
 ![memory-snapshot](./images/twitter.png)
 
-## tweetdeck - 40.38
+## tweetdeck - 40.38 MB
 
 twitter power user interface, with mentions and messages, one user's feed, and a search feed
 added.
 
 ![memory-snapshot](./images/tweetdeck.png)
 
-## github - 7.41
+## github - 7.41 MB
 
 github homepage (my news feed)
 
 ![memory-snapshot](./images/github.png)
 
-## google - 11.30
+## google - 11.30 MB
 
 empty google page. A surprising amount of memory used since it shows nothing but a single field.
 
 ![memory-snapshot](./images/google.png)
 
-## google results - 14.77
+## google results - 14.77 MB
 
 prehaps still a lot of memory considering very little images or real time interactions here.
 
 ![memory-snapshot](./images/google-results.png)
 
-## duckduckgo - 5.63
+## duckduckgo - 5.63 MB
 
 much less memory than google! I guess it's the tracking features in google that uses the extra memory!
 
 ![memory-snapshot](./images/duckduckgo.png)
 
-## duckduckgo results - 4.81
+## duckduckgo results - 4.81 MB
 
 ![memory-snapshot](./images/duckduckgo-results.png)
 
-## reddit - 43.77
+## reddit - 43.77 MB
 
 the reddit homepage has an infinite scroller, usually means lots of javascript and js objects.
 
 ![memory-snapshot](./images/reddit.png)
 
-## wikipedia - 1.73
+## wikipedia - 1.73 MB
 
 ![memory-snapshot](./images/wikipedia.png)
 
-## wikipedia (article) - 5.93
+## wikipedia (article) - 5.93 MB
 
 static page with some images
 
 ![memory-snapshot](./images/wikipedia-article.png)
 
-## youtube - 30.00
+## youtube - 30.00 MB
 
 pretty light weight considering it's youtube
 
 ![memory-snapshot](./images/youtube.png)
 
-## youtube (video) - 59.04
+## youtube (video) - 59.04 MB
 
 I think if you need more memory than this and don't play videos there is something wrong.
 
 ![memory-snapshot](./images/youtube-video.png)
 
-## google-maps - 65.61
+## google-maps - 65.61 MB
 
 I've noticed google-maps being quite heavy, and it's more than a video. but should it be?
 
 ![memory-snapshot](./images/google-maps.png)
 
-## openstreetmap - 6.72
+## openstreetmap - 6.72 MB
 
 only 10% the memory of google maps and does essentially the same thing!
 
@@ -143,44 +143,44 @@ on new york, with transportation layer enabled
 
 ![memory-snapshot](./images/openstreetmap.png)
 
-## stackoverflow - 2.55
+## stackoverflow - 2.55 MB
 
 static site
 
 ![memory-snapshot](./images/stackoverflow.png)
 
-## facebook - 23.49
+## facebook - 23.49 MB
 
 just the login page! already a lot of javascript has been loaded.
 The most bloated landing page, twice as much as google, 10x wikipedia.
 
 ![memory-snapshot](./images/facebook.png)
 
-## facebook newsfeed - 56.12
+## facebook newsfeed - 56.12 MB
 
 a lot of objects are in memory, presumably this is from using react.
 
 ![memory-snapshot](./images/facebook-newsfeed.png)
 
-## google images (result) - 26.41
+## google images (result) - 26.41 MB
 
 fairly efficient, compared to reddit, youtube etc
 
 ![memory-snapshot](./images/google-images.png)
 
-## duckduckgo images (result) - 7.31
+## duckduckgo images (result) - 7.31 MB
 
 1/3 the memory google images uses
 
 ![memory-snapshot](./images/duckduckgo-images.png)
 
-## pinterest - 26.80
+## pinterest - 26.80 MB
 
 about the same as google images
 
 ![memory-snapshot](./images/pinterest.png)
 
-## gmail (basic) - 0.81
+## gmail (basic) - 0.81 MB
 
 nearly nothing! I use this daily. Really, it's an amazing level of functionality and user-friendlyness,
 packed into a very simple interface. Also, because it doesn't have any
@@ -189,151 +189,151 @@ intentionally check for emails, there is no notifications or changing favicons. 
 
 ![memory-snapshot](./images/gmail-basic.png)
 
-## gmail (standard) - 158
+## gmail (standard) - 158 MB
 
 amazingly bloated. mostly massive amounts of javascript (it has a progress bar that shows at startup)
 but just the JS objects are 37 mb.
 
 ![memory-snapshot](./images/gmail-standard.png)
 
-## google inbox - 215 (!!!)
+## google inbox - 215  MB (!!!)
 
 makes standard gmail look tame. did they take gmail standard and just add more stuff?
 
 ![memory-snapshot](./images/google-inbox.png)
 
-## google docs - 24.7
+## google docs - 24.7 MB
 
 ![memory-snapshot](./images/google-docs.png)
 
-## google docs (document) - 46.57
+## google docs (document) - 46.57 MB
 
 this seems like more than should be necessary. mainly js objects.
 
 ![memory-snapshot](./images/google-docs-document.png)
 
-## google sheets (spreadsheet) - 96.98
+## google sheets (spreadsheet) - 96.98 MB
 
 a lot of memory, especially considering spreadsheets were the killer app back in the apple 2
 days, where lots of people brought computers for the first time to run visicalc on 64k of memory?
 
 ![memory-snapshot](./images/google-sheets-spreadsheet.png)
 
-## hackmd (document) - 44.9
+## hackmd (document) - 44.9 MB
 
 about the same as a google doc
 
 ![memory-snapshot](./images/hackmd.png)
 
-## sandstorm (spreadsheet) - 27.63
+## sandstorm (spreadsheet) - 27.63 MB
 
 almost 1/4 that of google spreadsheets.
 
 ![memory-snapshot](./images/sandstorm-sheet.png)
 
-## toggl - 49.77
+## toggl - 49.77 MB
 
 time tracking software, quite bloated.
 
 ![memory-snapshot](./images/toggl.png)
 
-## nytimes - 56.08
+## nytimes - 56.08 MB
 
 very bloated.
 
 ![memory-snapshot](./images/nytimes.png)
 
-## the guardian - 7.36
+## the guardian - 7.36 MB
 
 pretty good.
 
 ![memory-snapshot](./images/the-guardian.png)
 
-## the onion - 38.30
+## the onion - 38.30 MB
 
 quite bloated, nearly as much as reddit, but is created entirely by their in-house writers.
 
 ![memory-snapshot](./images/the-onion.png)
 
-## open collective - 31.22
+## open collective - 31.22 MB
 
 react site, but it's not data that changes very often. pretty bloated.
 
 ![memory-snapshot](./images/open-collective.png)
 
-## medium - 18.53
+## medium - 18.53 MB
 
 could be better, but not as bad as others.
 
 ![memory-snapshot](./images/medium.png)
 
-## medium (article) - 17.99
+## medium (article) - 17.99 MB
 
 ![memory-snapshot](./images/medium-article.png)
 
-## soundcloud - 22
+## soundcloud - 22 MB
 
 better than youtube
 
 ![memory-snapshot](./images/soundcloud.png)
 
-## soundcloud (track open) - 45.80
+## soundcloud (track open) - 45.80 MB
 
 better than youtube
 
 ![memory-snapshot](./images/soundcloud-track.png)
 
-## bandcamp - 14.86
+## bandcamp - 14.86 MB
 
 front page has listings, memory use similar to google search results.
 the best content site.
 
 ![memory-snapshot](./images/bandcamp.png)
 
-## bandcamp (album page) - 8.76
+## bandcamp (album page) - 8.76 MB
 
 pretty tight!
 
 ![memory-snapshot](./images/bandcamp-album.png)
 
-## slack - 76.53
+## slack - 76.53 MB
 
 bloated! largely javascript.
 
 ![memory-snapshot](./images/slack.png)
 
-## rocketchat - 32.12
+## rocketchat - 32.12 MB
 
 does the same thing as slack, but with less javascript.
 rocketchat is mostly js objects, but still less than rocketchat.
 
 ![memory-snapshot](./images/rocketchat.png)
 
-## riot - 55.31
+## riot - 55.31 MB
 
 more js objects than slack, but less javascript.
 
 ![memory-snapshot](./images/riot.png)
 
-## talky - 9.40
+## talky - 9.40 MB
 
 started a call with no one else in it. pretty tight!
 
 ![memory-snapshot](./images/talky.png)
 
-## google hangouts - 10.76
+## google hangouts - 10.76 MB
 
 on a call by my self. also surprisingly unbloated!
 
 ![memory-snapshot](./images/hangouts.png)
 
-## jitsi - 40.21
+## jitsi - 40.21 MB
 
 4x google hangouts.
 
 ![memory-snapshot](./images/jitsi.png)
 
-## meatspace chat - 4.48
+## meatspace chat - 4.48 MB
 
 as tight as a static site, but does crazy javascript stuff!
 
