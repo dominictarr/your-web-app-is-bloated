@@ -4,7 +4,7 @@ Using firefox's memory snapshot tool,
 I measured the heap usage of a variety of web apps.
 Here is how everying did.
 
-App | Memory (MB)
+App | Memory (MiB = 1024<sup>2</sup> B)
 --- | ---:
 google inbox |  215 (!!!)
 gmail (standard) |  158
