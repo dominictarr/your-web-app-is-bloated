@@ -468,6 +468,6 @@ Recently, web development style has moved towards a fully dynamic front end that
 everything in javascript. If a app really is highly dynamic, I guess that is somewhat excusable,
 (such as facebook or slack) but I on a site that could be static it obviously uses a lot more.
 
-I think this just shows there is considerable room for improvement in terms of application efficientcy.
+I think this just shows there is considerable room for improvement in terms of application efficiency.
 
 
