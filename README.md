@@ -461,7 +461,7 @@ Memory use isn't the most important thing, but it is an easy to measure proxy. I
 less memory usage, you probably have a simpler app, which is probably more performant.
 Less memory also means lees garbage collection activity.
 
-google's apps are particularily interesting because they provide both the worst offenders
+google's apps are particularly interesting because they provide both the worst offenders
 (gmail, inbox, docs), but their mobile apps are really solid!
 
 Recently, web development style has moved towards a fully dynamic front end that generates
