@@ -62,9 +62,7 @@ stackoverflow |  2.55
 wikipedia |  1.73
 gmail (vintage) |  0.81
 
-
-
-# Method
+## Method
 
 I opened each site in firefox, and used the memory shapshot tool.
 I screen shotted the output using `scrot`. I was running `ublock`,
@@ -181,7 +179,7 @@ added.
 
 ![memory-snapshot](./images/tweetdeck.png)
 
-## twitter (mobile) - 30.84
+### twitter (mobile) - 30.84
 
 not better than regular web twitter
 
@@ -193,26 +191,26 @@ the reddit homepage has an infinite scroller, usually means lots of javascript a
 
 ![memory-snapshot](./images/reddit.png)
 
-## facebook - 23.49 MB
+### facebook - 23.49 MB
 
 just the login page! already a lot of javascript has been loaded.
 The most bloated landing page, twice as much as google, 10x wikipedia.
 
 ![memory-snapshot](./images/facebook.png)
 
-## facebook newsfeed - 56.12 MB
+### facebook newsfeed - 56.12 MB
 
 a lot of objects are in memory, presumably this is from using react.
 
 ![memory-snapshot](./images/facebook-newsfeed.png)
 
-## facebook messenger - 57.78 MB
+### facebook messenger - 57.78 MB
 
 same memory use as fb news feed. react, of course.
 
 ![memory-snapshot](./images/messenger.png)
 
-## gmail (basic) - 0.81 MB
+### gmail (basic) - 0.81 MB
 
 nearly nothing! I use this daily. Really, it's an amazing level of functionality and user-friendlyness,
 packed into a very simple interface. Also, because it doesn't have any
@@ -221,47 +219,47 @@ intentionally check for emails, there is no notifications or changing favicons. 
 
 ![memory-snapshot](./images/gmail-basic.png)
 
-## gmail (mobile) - 7.93 MB
+### gmail (mobile) - 7.93 MB
 
 Google's mobile apps are respectable.
 again, pretending to be a nexus 5.
 
 ![memory-snapshot](./images/gmail-mobile.png)
 
-## gmail (standard) - 158 MB
+### gmail (standard) - 158 MB
 
 amazingly bloated. mostly massive amounts of javascript (it has a progress bar that shows at startup)
 but just the JS objects are 37 mb.
 
 ![memory-snapshot](./images/gmail-standard.png)
 
-## google inbox - 215  MB (!!!)
+### google inbox - 215  MB (!!!)
 
 makes standard gmail look tame. did they take gmail standard and just add more stuff?
 
 ![memory-snapshot](./images/google-inbox.png)
 
 
-## slack - 76.53 MB
+### slack - 76.53 MB
 
 bloated! largely javascript.
 
 ![memory-snapshot](./images/slack.png)
 
-## rocketchat - 32.12 MB
+### rocketchat - 32.12 MB
 
 does the same thing as slack, but with less javascript.
 rocketchat is mostly js objects, but still less than slack.
 
 ![memory-snapshot](./images/rocketchat.png)
 
-## riot - 55.31 MB
+### riot - 55.31 MB
 
 more js objects than slack, but less javascript.
 
 ![memory-snapshot](./images/riot.png)
 
-## meatspace chat - 4.48 MB
+### meatspace chat - 4.48 MB
 
 as tight as a static site, but does crazy javascript stuff!
 
@@ -271,30 +269,30 @@ as tight as a static site, but does crazy javascript stuff!
 
 ## video
 
-## youtube (mobile) - 5.49 MB
+### youtube (mobile) - 5.49 MB
 
 just the landing page. acceptable.
 
 ![memory-snapshot](./images/youtube-mobile.png)
 
-## youtube (mobile, playing video) - 15.94 MB
+### youtube (mobile, playing video) - 15.94 MB
 
 ![memory-snapshot](./images/youtube-mobile-video.png)
 
-## youtube - 30.00 MB
+### youtube - 30.00 MB
 
 pretty light weight considering it's youtube
 
 ![memory-snapshot](./images/youtube.png)
 
-## youtube (video) - 59.04 MB
+### youtube (video) - 59.04 MB
 
 At first I thought this was reasonable (since you are playing video)
 but then I discovered that actually you can play video with a lot less!
 
 ![memory-snapshot](./images/youtube-video.png)
 
-## vimeo (video) - 31.15
+### vimeo (video) - 31.15
 
 ![memory-snapshot](./images/vimeo.png)
 
@@ -454,7 +452,7 @@ slightly old version of [patchbay](https://github.com/ssbc/patchlite) because it
 
 ![memory-snapshot](./images/patchbay.png)
 
-# conclusions
+## conclusions
 
 I started exploring this because I was trying to figure out how to optimize my own apps.
 Memory use isn't the most important thing, but it is an easy to measure proxy. If you have
@@ -469,5 +467,3 @@ everything in javascript. If a app really is highly dynamic, I guess that is som
 (such as facebook or slack) but I on a site that could be static it obviously uses a lot more.
 
 I think this just shows there is considerable room for improvement in terms of application efficiency.
-
-
