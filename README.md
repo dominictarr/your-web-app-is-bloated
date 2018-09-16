@@ -61,6 +61,7 @@ duckduckgo results |  4.81
 stackoverflow |  2.55
 wikipedia |  1.73
 gmail (vintage) |  0.81
+patchfoo | 0.7
 
 ## Table of Contents
 
@@ -132,6 +133,7 @@ gmail (vintage) |  0.81
     - [patchless - 12.43 MB](#patchless---1243-mb)
     - [dat-shopping-list - 8.28 MB](#dat-shopping-list---828-mb)
     - [patchbay (patchlite) - 59.93](#patchbay-patchlite---5993)
+    - [patchfoo - 0.7 MB](#patchfoo---0.7-mb)
 - [conclusions](#conclusions)
 
 ## Method
@@ -637,6 +639,14 @@ simple [shopping list app on dat](https://dat-shopping-list.glitch.me/)
 slightly old version of [patchbay](https://github.com/ssbc/patchlite) because it could be bundled and run inside firefox.
 
 ![memory-snapshot](./images/patchbay.png)
+
+### patchfoo - 0.7 MB
+
+[^top](#table-of-contents)
+
+A [pure html social p2p client](http://git.scuttlebot.io/%25YAg1hicat%2B2GELjE2QJzDwlAWcx0ML%2B1sXEdsWwvdt8%3D.sha256); form-based with no javascript
+
+![memory-snapshot](./images/patchfoo.png)
 
 ## conclusions
 
